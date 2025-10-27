@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+elasticsearch:
+  hosts:
+    - https://localhost:9200
+  username: elastic
+  password: changeme
+  verify-certs: false
+
+data:
+  file: ../data/sample_products.ndjson
